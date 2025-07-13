@@ -1,0 +1,32 @@
+<variant
+    name="release"
+    package="com.dexterous.flutterlocalnotifications"
+    minSdkVersion="16"
+    targetSdkVersion="16"
+    mergedManifest="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/intermediates/default_proguard_files/global/proguard-android.txt-8.4.0"
+    partialResultsDir="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
+  <buildFeatures
+      coreLibraryDesugaring="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="com.dexterous.flutterlocalnotifications"
+      generatedSourceFolders="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/generated/ap_generated_sources/release/out:/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/generated/source/buildConfig/release"
+      generatedResourceFolders="/Users/akash/codes/appdev/Wallmart/build/flutter_local_notifications/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/akash/.gradle/caches/8.8/transforms/5406a98fdb3e93297a0ca18a4976dcd1/transformed/desugar_jdk_libs_configuration-1.2.2-desugar-lint.txt:/Users/akash/.gradle/caches/8.8/transforms/db09b0007f2de66c25502c1649092c8f/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
